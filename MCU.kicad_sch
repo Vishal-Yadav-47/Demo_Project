@@ -3999,6 +3999,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 33.02) (xy 248.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6232b2-8d28-4b67-ad92-6673296a3f90")
+	)
+	(wire
+		(pts
 			(xy 129.54 35.56) (xy 129.54 34.29)
 		)
 		(stroke
@@ -4129,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 33.02) (xy 248.92 33.02)
+			(xy 237.49 33.02) (xy 238.76 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +4986,7 @@
 	)
 	(global_label "LoRa_RESET"
 		(shape input)
-		(at 161.29 109.22 0)
+		(at 147.32 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4987,7 +4997,7 @@
 		)
 		(uuid "1622bd23-ff97-4b50-b78f-76acdb871e44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.584 109.22 0)
+			(at 161.614 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5361,7 @@
 	)
 	(global_label "MCU_Mode"
 		(shape input)
-		(at 147.32 111.76 0)
+		(at 161.29 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5362,7 +5372,7 @@
 		)
 		(uuid "b68960cf-05d2-491e-8bd5-e8f17ba4437b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1627 111.76 0)
+			(at 174.1327 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6441,6 +6451,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 242.57 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c0a6677-2737-4e35-b386-4519c472fa9a")
+		(property "Reference" "R38"
+			(at 242.57 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 242.57 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 242.57 34.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef9bc70b-79c5-48f9-8390-fcc8129be9ac")
+		)
+		(pin "2"
+			(uuid "19ee8d93-1b60-4053-b26f-b6b7a5d6e4be")
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386/9d40519f-9a51-4d6f-ac34-7f912ff4c2a7"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 48.26 41.91 180)
 		(unit 1)
@@ -6940,7 +7030,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "16MHz"
+		(property "Value" "20MHz"
 			(at 201.93 101.6001 90)
 			(show_name no)
 			(do_not_autoplace no)

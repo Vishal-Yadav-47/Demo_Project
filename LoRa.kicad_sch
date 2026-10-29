@@ -3077,12 +3077,6 @@
 		(color 0 0 0 0)
 		(uuid "f91cd207-210a-4fab-91de-06ce11443e5f")
 	)
-	(junction
-		(at 245.11 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb166285-a65e-4e17-bfea-85db3a6fe04e")
-	)
 	(wire
 		(pts
 			(xy 128.27 53.34) (xy 143.51 53.34)
@@ -3225,16 +3219,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 41.91) (xy 234.95 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ac7eaf-5ef9-49c8-af8a-481197fa1830")
-	)
-	(wire
-		(pts
 			(xy 254 39.37) (xy 254 40.64)
 		)
 		(stroke
@@ -3352,16 +3336,6 @@
 			(type default)
 		)
 		(uuid "3ac905c2-7614-4eba-a0b0-64cf5b2a0e92")
-	)
-	(wire
-		(pts
-			(xy 234.95 40.64) (xy 245.11 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3acbcbec-0635-4f3a-a10d-27167353b5de")
 	)
 	(wire
 		(pts
@@ -4212,31 +4186,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "LoRa_TXEN"
-		(shape input)
-		(at 234.95 49.53 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "ed4b5e8a-aa4f-4882-9802-37e287dedbc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.95 62.7355 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -7511,88 +7460,6 @@
 			(project "Demo Project"
 				(path "/4e55511c-c365-4512-9b57-837a9ec6e386/e05efdcd-bdb1-4ad7-9946-40f9f2f2fdae"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 234.95 45.72 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3b81a0d-926a-4810-a52d-4f1dd5949cdb")
-		(property "Reference" "R33"
-			(at 232.41 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 232.41 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.728 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 234.95 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38737e14-ddda-4242-a66a-211aece31312")
-		)
-		(pin "2"
-			(uuid "7ae79249-d8d4-4b58-89a2-df46b765e086")
-		)
-		(instances
-			(project "Demo Project"
-				(path "/4e55511c-c365-4512-9b57-837a9ec6e386/e05efdcd-bdb1-4ad7-9946-40f9f2f2fdae"
-					(reference "R33")
 					(unit 1)
 				)
 			)
