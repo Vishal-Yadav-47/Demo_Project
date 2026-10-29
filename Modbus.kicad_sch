@@ -3181,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 133.35) (xy 139.7 134.62)
+			(xy 139.7 113.03) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3418,16 +3418,6 @@
 			(type default)
 		)
 		(uuid "e2f896c6-ce3c-4630-87c0-11c7cde9d8cf")
-	)
-	(wire
-		(pts
-			(xy 139.7 125.73) (xy 139.7 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d80111-861f-4703-93bf-9dcfbedd8827")
 	)
 	(wire
 		(pts
@@ -5114,87 +5104,6 @@
 			(project "Demo Project"
 				(path "/4e55511c-c365-4512-9b57-837a9ec6e386/2474e143-7dde-4b68-aaf7-65a89fc37c40"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0a4fe143-c066-4692-abe4-bc84c4da52c4")
-		(property "Reference" "R33"
-			(at 142.24 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 142.24 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 137.922 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11c04235-ae15-4d58-bbb1-72efda10379e")
-		)
-		(pin "2"
-			(uuid "2588288b-e782-4721-9273-a86f32c7577f")
-		)
-		(instances
-			(project "Demo Project"
-				(path "/4e55511c-c365-4512-9b57-837a9ec6e386/2474e143-7dde-4b68-aaf7-65a89fc37c40"
-					(reference "R33")
 					(unit 1)
 				)
 			)
