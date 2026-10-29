@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "Default": {
+      "enabled": false,
+      "type": "se",
+      "target": 50,
+      "tol_pct": 10,
+      "gap": 0.25,
+      "cpw_gap": null
+    }
+  },
+  "settings": {
+    "f_ghz": 1.0,
+    "accuracy": 2,
+    "units": "mm",
+    "tol_pct": 10.0
+  }
+}

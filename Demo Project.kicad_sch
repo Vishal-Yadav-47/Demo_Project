@@ -1,0 +1,425 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4e55511c-c365-4512-9b57-837a9ec6e386")
+	(paper "A4")
+	(title_block
+		(title "Modbus to LoRa Gateway")
+		(date "2026-08-26")
+		(rev "v1.1")
+		(company "My_Company")
+		(comment 1 "Designed by - Vishal Y")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 40.64 39.37)
+		(end 254 149.86)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5f0022a2-55df-4d65-8b00-ee3dc78d4b40")
+	)
+	(text "Modbus to LoRa Gateway"
+		(exclude_from_sim no)
+		(at 151.892 25.654 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "3f4c3e86-1e36-4063-8913-5ff692935dec")
+	)
+	(text "Block Diagram"
+		(exclude_from_sim no)
+		(at 55.118 44.704 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(bold yes)
+			)
+		)
+		(uuid "66b3810e-ee84-40b7-99bf-e0cd88438c2d")
+	)
+	(polyline
+		(pts
+			(xy 193.04 118.11) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01293c42-9fe0-4e88-b3cd-9a74dbbde53e")
+	)
+	(polyline
+		(pts
+			(xy 144.78 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b8b513-6402-4982-94b7-05d19f981dda")
+	)
+	(polyline
+		(pts
+			(xy 144.78 119.38) (xy 146.05 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5522e9b7-2915-4a69-b8f9-2f9fb8bc3ba1")
+	)
+	(polyline
+		(pts
+			(xy 125.73 99.06) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c773e8-8be3-407a-b012-4a7b079cab48")
+	)
+	(polyline
+		(pts
+			(xy 102.87 119.38) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7081f5-f924-43bf-9078-61da5b5eb6d5")
+	)
+	(polyline
+		(pts
+			(xy 125.73 78.74) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758f43c5-bae0-45a3-9c59-d8a214288999")
+	)
+	(polyline
+		(pts
+			(xy 125.73 77.47) (xy 125.73 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98091d80-367f-40a6-aa12-850ae2d66306")
+	)
+	(polyline
+		(pts
+			(xy 102.87 121.92) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e263630-0f5a-4ce8-9bef-c5aa54c96cbb")
+	)
+	(polyline
+		(pts
+			(xy 144.78 119.38) (xy 146.05 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23ded1e-88b3-4098-b64b-dc24fb25e4db")
+	)
+	(polyline
+		(pts
+			(xy 193.04 118.11) (xy 194.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94ba80e-df11-4604-bb1d-608db1d67457")
+	)
+	(polyline
+		(pts
+			(xy 81.28 120.65) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bbfc83-0767-4e05-a006-cd399bf252e6")
+	)
+	(polyline
+		(pts
+			(xy 102.87 119.38) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38042d2-d4df-4103-95d5-a5faf629c0aa")
+	)
+	(polyline
+		(pts
+			(xy 193.04 118.11) (xy 194.31 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d409f932-16ca-4cec-b205-3f71b17f3888")
+	)
+	(polyline
+		(pts
+			(xy 124.46 97.79) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d70dc2-d46f-470c-90e7-8036ca017afe")
+	)
+	(sheet
+		(at 207.01 100.33)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2474e143-7dde-4b68-aaf7-65a89fc37c40")
+		(property "Sheetname" "RS485_RS422"
+			(at 207.01 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Modbus.kicad_sch"
+			(at 207.01 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 100.33)
+		(size 22.86 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4c142dd6-0d53-4101-95db-b9522c331b6f")
+		(property "Sheetname" "Digital_Isolator"
+			(at 168.91 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolator.kicad_sch"
+			(at 168.91 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 100.33)
+		(size 29.21 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6546d303-fea6-4eb7-8bb1-e3116303b405")
+		(property "Sheetname" "Power_Modules"
+			(at 50.8 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block_Diagram.kicad_sch"
+			(at 50.8 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 100.33)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9d40519f-9a51-4d6f-ac34-7f912ff4c2a7")
+		(property "Sheetname" "PIC18F67K22"
+			(at 105.41 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 105.41 139.0146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 50.8)
+		(size 38.1 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e05efdcd-bdb1-4ad7-9946-40f9f2f2fdae")
+		(property "Sheetname" "LoRa Module"
+			(at 105.41 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LoRa.kicad_sch"
+			(at 105.41 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Demo Project"
+				(path "/4e55511c-c365-4512-9b57-837a9ec6e386"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
